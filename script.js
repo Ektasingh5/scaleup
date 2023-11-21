@@ -1,3 +1,15 @@
+document.addEventListener('DOMContentLoaded', function () {
+  const mobileMenuToggle = document.getElementById('mobile-menu');
+  const navLinks = document.querySelector('.nav-links');
+  const socialIcons = document.querySelector('.social-icons');
+
+  mobileMenuToggle.addEventListener('click', function () {
+      navLinks.classList.toggle('show');
+      socialIcons.classList.toggle('show');
+  });
+});
+
+
 const items = document.querySelectorAll(".accordion button");
 
 function toggleAccordion() {
