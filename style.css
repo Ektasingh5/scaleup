@@ -258,20 +258,16 @@ line-height: 24px;
     color: #727778;
     margin-right: 7px;
 }
-
 .checkbox-roww {
     display: flex;
     gap: 10px;
-    margin-left: 110px;
+    margin-left: 60px;
 }
-
 .checkbox-roww input[type="checkbox"] {
     width: 18px;
     height: 18px;
-    margin-right: 2px;
-}
-
-
+    margin-right: 3px;
+} 
 .checkbox-roww label {
     font-family: 'Roboto';
     font-size: 14px;
