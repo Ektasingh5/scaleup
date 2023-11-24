@@ -1599,14 +1599,14 @@ flex-shrink: 0;
         margin-left: 1%;
         margin-top: 10%;
     }
-    /* .content h1 {
+    .content h1 {
         color: #FFF;
 font-family: 'Roboto';
-font-size: 2vw;
+font-size: 2.5vw;
 font-style: normal;
-font-weight: 200;
-line-height: 2vw;
-    } */
+font-weight: 600;
+line-height: 2.5vw;
+    }
     
     .content p {
         width: 90%;
@@ -1781,14 +1781,14 @@ line-height: 17px;
       width: 100%; 
       margin-left: 0;
     }
-    /* .content h1 {
+    .content h1 {
         color: #FFF;
         font-family: 'Roboto';
-        font-size: 18px;
+        font-size: 5vw;
         font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-      } */
+        font-weight: 600;
+        line-height: 4vw;
+      }
     
       .content p {
         color: #FFF;
