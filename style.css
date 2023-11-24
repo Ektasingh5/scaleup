@@ -1750,7 +1750,7 @@ line-height: 17px;
         line-height: normal;
     }
   }
-  @media only screen and (max-width: 391px) {
+  @media only screen and (max-width: 430px) {
     nav {
         background-color: #fff;
         display: flex;
@@ -1784,10 +1784,10 @@ line-height: 17px;
     .content h1 {
         color: #FFF;
         font-family: 'Roboto';
-        font-size: 5vw;
+        font-size: 6vw;
         font-style: normal;
         font-weight: 600;
-        line-height: 4vw;
+        line-height: 5vw;
       }
     
       .content p {
