@@ -51,11 +51,11 @@ nav {
     color: #242A2D;
 font-size: 12px;
 font-style: normal;
-font-weight: 550;
+font-weight: 600;
 line-height: 44px;
 letter-spacing: 0.14px;
     text-decoration: none;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto';
 }
 
 .social-icons {
@@ -223,11 +223,12 @@ line-height: 24px;
     border-radius: 4px;
     border: 1px solid #FFF;
     background: #FFF;
+    width: 40%;
 }
 
 .form input,
 .form textarea {
-    width: 432px;
+    width: 100%;
     height: 51px;
     padding: 9px;
     border: 5px;
@@ -237,32 +238,52 @@ line-height: 24px;
 }
 .form textarea {
     resize: vertical; 
-    min-height: 51px; 
+    min-height: 91px; 
     max-height: 500px; 
   }
 .checkbox-row {
     display: flex;
     gap: 10px;
 }
-
 .checkbox-row input[type="checkbox"] {
     width: 18px;
     height: 18px;
     margin-right: 2px;
 }
 
-
 .checkbox-row label {
-    font-family: 'Manrope';
+    font-family: 'Roboto';
     font-size: 14px;
     font-weight: 400;
     color: #727778;
+    margin-right: 7px;
+}
+
+.checkbox-roww {
+    display: flex;
+    gap: 10px;
+    margin-left: 110px;
+}
+
+.checkbox-roww input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    margin-right: 2px;
+}
+
+
+.checkbox-roww label {
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 400;
+    color: #727778;
+    margin-right: 7px;
 }
 
 
 .send {
     display: flex;
-    width: 432px;
+    width: 100%;
     padding: 14px 14px;
     justify-content: center;
     align-items: center;
@@ -281,17 +302,19 @@ line-height: 24px;
 }
 
 .interest {
-    width: 432px;
+    width: 100%;
     height: 98px;
 }
 
 .interest p {
-    color: #727778;
-    font-family: 'Manrope';
+    color: #000;
+    font-family: 'Roboto';
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-right: 13px;
+    margin-bottom:20px;
 }
 
 .pricing {
@@ -1501,7 +1524,7 @@ letter-spacing: 0.84px;
 text-transform: uppercase;
 }
 
-  @media only screen and (max-width: 769px) {
+  @media only screen and (max-width: 821px) {
     nav {
         background-color: #fff;
         display: flex;
@@ -1589,6 +1612,8 @@ flex-shrink: 0;
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
+        margin-left: 2%;
+    margin-right: 3%;
     }
     .content {
         width: 60%;
@@ -1602,14 +1627,14 @@ flex-shrink: 0;
     .content h1 {
         color: #FFF;
 font-family: 'Roboto';
-font-size: 2.5vw;
+font-size: 22px;
 font-style: normal;
 font-weight: 600;
-line-height: 2.5vw;
+line-height: normal;
     }
     
     .content p {
-        width: 90%;
+        width: 80%;
         color: #FFF;
         font-family: 'Roboto';
 font-size: 12px;
@@ -1622,7 +1647,7 @@ line-height: 17px;
         display: flex;
         align-items: flex-start;
         gap: 10px;
-        margin-top: 20%;
+        margin-top: 2%;
     }
     
     .buttone {
@@ -1687,38 +1712,18 @@ line-height: 17px;
         padding: 9px;
         border: 1px solid #AAA;
         border-radius: 4px;
-        margin-bottom: 12px;
+        margin-bottom: 6px;
         padding: 7px 12px 8px 12px;
         width: 250px;
     }
     .form textarea {
         resize: vertical; 
-        min-height: 51px; 
+        min-height: 81px; 
         max-height: 500px; 
       }
-    .checkbox-row {
-        display: flex;
-        gap: 10px;
-    }
-    
-    .checkbox-row input[type="checkbox"] {
-        width: 18px;
-        height: 18px;
-        margin-right: 2px;
-    }
-    
-    
-    .checkbox-row label {
-        font-family: 'Manrope';
-        font-size: 14px;
-        font-weight: 400;
-        color: #727778;
-    }
-    
-    
     .send {
         display: flex;
-        width: 432px;
+        width: 100%;
         padding: 14px 14px;
         justify-content: center;
         align-items: center;
@@ -1737,20 +1742,53 @@ line-height: 17px;
     }
     
     .interest {
-        width: 432px;
-        height: 98px;
+        width: 100%;
+        height: 75px;
     }
     
     .interest p {
-        color: #727778;
-        font-family: 'Manrope';
-        font-size: 18px;
-        font-style: normal;
+        color: #000;
+        font-family: 'Roboto';
+        font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-right:1px;
+    }
+    .checkbox-row {
+        display: flex;
+        /* gap: 5px; */
+    }
+    .checkbox-row input[type="checkbox"] {
+        width: 15px;
+        height: 15px;
+        /* margin-right: 3px; */
+    }
+    .checkbox-row label {
+        font-family: 'Roboto';
+        font-size: 11px;
         font-weight: 400;
-        line-height: normal;
+        color: #727778;
+        margin-right: 2px;
+    }
+    .checkbox-roww {
+        display: flex;
+       margin-left: 20px;
+       gap: 0px;
+    }
+    .checkbox-roww input[type="checkbox"] {
+        width: 15px;
+        height: 15px;
+        /* margin-right: 3px; */
+    } 
+    .checkbox-roww label {
+        font-family: 'Roboto';
+        font-size: 11px;
+        font-weight: 400;
+        color: #727778;
     }
   }
-  @media only screen and (max-width: 430px) {
+  @media only screen and (max-width: 431px) {
     nav {
         background-color: #fff;
         display: flex;
@@ -1784,26 +1822,26 @@ line-height: 17px;
     .content h1 {
         color: #FFF;
         font-family: 'Roboto';
-        font-size: 6vw;
+        font-size: 5vw;
         font-style: normal;
         font-weight: 600;
-        line-height: 5vw;
+        line-height: 6vw;
       }
     
       .content p {
         color: #FFF;
-        font-family: 'Manrope';
-        font-size: 12px;
+        font-family: 'Roboto';
+        font-size: 3.3vw;
         font-style: normal;
         font-weight: 400;
-        line-height: 16px;
+        line-height: 4.5vw;
         width: auto; 
       }
       .buttons{
         display: flex;
 align-items: flex-start;
 /* gap: 8px; */
-margin-top: 0%;
+margin-top: 2%;
       }
       .buttone{
         display: flex;
@@ -1838,8 +1876,8 @@ font-weight: 400;
 line-height: 24px; 
       }
       .form {
-        width: 320px;
-        height: 381px;
+        width: 360px;
+        height: 395px;
         flex-shrink: 0;
         margin-top: 10%; 
         margin-right: 0; 
@@ -1880,15 +1918,20 @@ line-height: 24px;
         resize: vertical; 
         min-height: 100px; 
         max-height: 150px; 
-        max-width: 250px;
+        width: 100%;
       }
+      .interest {
+        width: 100%;
+        height: 78px;
+    }
       .interest p{
         color: #000;
-font-family: 'Manrope';
-font-size: 12px;
+font-family: 'Roboto';
+font-size: 3.3vw;
 font-style: normal;
 font-weight: 400;
-line-height: normal;
+line-height: 4.5vw;
+margin-bottom: 7px;
       }
     .pricing-options{
         flex-direction: column;
@@ -1910,10 +1953,9 @@ gap: 4px;
 border: 1px solid #CACACA;
     }
     
-    
     .checkbox-row label {
         color: #565656;
-font-family: 'Manrope';
+font-family: 'Roboto';
 font-size: 10px;
 font-style: normal;
 font-weight: 400;
@@ -1921,7 +1963,7 @@ line-height: 20px;
     }
     .send{
         display: flex;
-width: 294px;
+width: 100%;
 height: 41px;
 padding: 14px 16px;
 justify-content: center;
