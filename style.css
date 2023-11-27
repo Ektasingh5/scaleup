@@ -2887,4 +2887,17 @@ margin-top: 1px;
     .career{
         display: none;
     }
+    .videosect{
+        width: 100%;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .vdo{
+        width: 100%;
+    height: 250px;
+    flex-shrink: 0;
+    background: #564B4B;
+    }
   }
