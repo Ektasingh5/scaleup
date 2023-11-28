@@ -27,7 +27,7 @@ nav {
     width: 100%;
 }
 .logo{
-    margin-left: 20px;
+    margin-left: 4%;
 }
 
 .logo img {
@@ -64,7 +64,8 @@ letter-spacing: 0.14px;
     flex-shrink: 0;
     display: inline-flex;
     align-items: flex-start;
-    gap: 10px;
+    gap: 16px;
+    margin-right: 4%;;
 }
 
 .social-icons a {
@@ -96,13 +97,13 @@ letter-spacing: 0.14px;
     position: fixed;
     top: 0;
     left: 0;
-    height: 35%;
-    width: 70px;
+    /* height: 35%; */
+    width: 90px;
     margin-top: 22%;
     padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 45px;
-    padding-bottom: 45px;
+    padding-right: 20px;
+    padding-top: 35px;
+    padding-bottom: 35px;
     background: #F6FDFF;
     border-bottom-right-radius: 20px;
     border-top-right-radius: 20px;
@@ -114,8 +115,8 @@ letter-spacing: 0.14px;
     display: inline-flex;
 }
 .fixed img {
-    width: 50px;
-    height: 50px
+    width: 40px;
+    height: 40px
 }
 .first {
     background: rgb(0, 95, 143);
@@ -130,8 +131,8 @@ letter-spacing: 0.14px;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin-left: 4%;
-    margin-right: 4%;
+    margin-left: 8%;
+    margin-right: 8%;
 }
 
 .content {
@@ -154,7 +155,7 @@ letter-spacing: 0.14px;
 }
 
 .content p {
-    width: 570px;
+    width: 99%;
     height: 124px;
     color: #FFF;
     font-family: 'Roboto';
@@ -211,6 +212,7 @@ line-height: 24px;
 .buttontwo:hover {
     background-color: #003F5F;
     color: #fff;
+    border: 2px solid #FFF;
 }
 .form {
     margin-top: 3%;
@@ -219,11 +221,11 @@ line-height: 24px;
     padding: 32px 30px;
     flex-direction: column;
     align-items: flex-start;
-    gap: 12px;
+    gap: 2px;
     border-radius: 4px;
     border: 1px solid #FFF;
     background: #FFF;
-    width: 40%;
+    width: 35%;
 }
 
 .form input,
@@ -231,9 +233,8 @@ line-height: 24px;
     width: 100%;
     height: 51px;
     padding: 9px;
-    border: 5px;
     border: 1px solid #AAA;
-    border-radius: 4px;
+    border-radius: 5px;
     margin-bottom: 12px;
 }
 .form textarea {
@@ -243,37 +244,36 @@ line-height: 24px;
   }
 .checkbox-row {
     display: flex;
-    gap: 10px;
+    gap: 5px;
 }
 .checkbox-row input[type="checkbox"] {
     width: 18px;
     height: 18px;
-    margin-right: 2px;
 }
 
 .checkbox-row label {
     font-family: 'Roboto';
     font-size: 14px;
     font-weight: 400;
-    color: #727778;
-    margin-right: 7px;
+    color: #242A2D;
+    margin-bottom: 0px;
+    margin-right: 9px;
 }
 .checkbox-roww {
     display: flex;
-    gap: 10px;
-    margin-left: 60px;
+    gap: 5px;
+    margin-left: 40px;
 }
 .checkbox-roww input[type="checkbox"] {
     width: 18px;
     height: 18px;
-    margin-right: 3px;
 } 
 .checkbox-roww label {
     font-family: 'Roboto';
     font-size: 14px;
     font-weight: 400;
-    color: #727778;
-    margin-right: 7px;
+    color: #242A2D;
+    margin-right: 9px;
 }
 
 
@@ -303,14 +303,14 @@ line-height: 24px;
 }
 
 .interest p {
-    color: #000;
+    color: #727778;
     font-family: 'Roboto';
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-right: 13px;
-    margin-bottom:20px;
+    /* margin-right: 13px;
+    margin-bottom:20px; */
 }
 
 /* .pricing {
@@ -326,13 +326,13 @@ line-height: 24px;
     justify-content: space-between;
     align-items: flex-start;
     margin-top: 7%;
-    margin-left: 4%;
-    margin-right: 3%;
+    margin-left: 6%;
+    margin-right: 6%;
 }
 
 .option {
     display: flex;
-width: 32%;
+width: 31.5%;
 padding: 16px 16px 17px 16px;
 margin-bottom: 90px;
 flex-direction: column;
@@ -345,7 +345,7 @@ box-shadow: 0px 2px 6px -1px rgba(0, 0, 0, 0.12);
 }
 
 .option button {
-    width: 98%;
+    width: 100%;
 height: 65px;
 flex-shrink: 0;
 border-radius: 8px;
@@ -363,7 +363,7 @@ text-transform: capitalize;
 
 .project{
     display: flex;
-width: 98%;
+width: 100%;
 height: 92px;
 padding: 10px 10px 10px 10px;
 align-items: flex-start;
@@ -383,35 +383,43 @@ margin-top: 10px;
 flex-direction: column;
 align-items: flex-start;
 gap: 6px;
+width: 80%
+}
+.proimg {
+    width: 20%;
 }
 .proimg img{
-    width: 70px;
-    height: 70px;
+    width: 66px;
+    height: 66px;
     flex-shrink: 0;
+    margin-left: 5%;
 }
 .proco{
     display: flex;
 flex-direction: column;
 align-items: flex-start;
 gap: 2px;
+width: 95%;
 }
 .proco h6{
     color: #000;
 font-family: 'Roboto';
-font-size: 16px;
+font-size: 14px;
 font-style: normal;
-font-weight: 400;
+font-weight: 500;
 line-height: 18px;
 }
 .vineet{
     display: flex;
+    justify-content: space-between;
     align-items: center;
+    width: 100%;
     margin-top: 10px;
 }
 .patni{
     display: flex;
     align-items: center;
-    gap: 16px;
+    gap: 15px;
 }
 .cal{
     display: flex;
@@ -419,9 +427,8 @@ align-items: flex-start;
 gap: 1px;
 }
 .cal img{
-    width: 12px;
+    width: 13px;
 height: 12px;
-margin-top: 2px;
 }
 .cal p{
     color: #000;
@@ -432,13 +439,11 @@ font-weight: 600;
 line-height: 14px;
 }
 .but{
-    margin-left: 60px; 
-padding: 4px 10px 4px 10px;
+padding: 4px 9px 4px 9px;
 border-radius: 4px;
-gap: 10px;
 background-color: #009CDB;
     font-family: 'Roboto'; 
-    font-size: 12px;
+    font-size: 11px;
     font-style: normal;
      font-weight: 500; 
      line-height: normal;
@@ -1600,25 +1605,7 @@ height: 60.472px;
 flex-shrink: 0;
     }  
     .fixed-container {
-        position: fixed;
-        top: 0;
-        left: 0;
-        height: 10%;
-        width: 50px;
-        margin-top: 22%;
-        padding-left: 10px;
-        padding-right: 10px;
-        padding-top: 45px;
-        padding-bottom: 45px;
-        background: #F6FDFF;
-        border-bottom-right-radius: 20px;
-        border-top-right-radius: 20px;
-        overflow: hidden;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
-        gap: 20px;
-        display: inline-flex;
+       display: none;
     }
     .fixed-container img {
         width: 20px;
@@ -2174,24 +2161,24 @@ display: flex;
     align-items: flex-start;
 }
 .career-left{
-    margin-left: 3%;
+    margin-left: 4%;
     margin-top: 5%;
     display: inline-flex;
 flex-direction: column;
 align-items: flex-start;
-gap: 58px;
-width:50%;
+gap: 28px;
+width:45%;
 }
 .career-top{
     display: flex;
 flex-direction: column;
 align-items: flex-start;
-gap: 13px;
+/* gap: 13px; */
 }
 .career-top h6{
     color: #FFF;
 font-family: 'Roboto';
-font-size: 22px;
+font-size: 15px;
 font-style: normal;
 font-weight: 600;
 line-height: 60px;
@@ -2199,14 +2186,14 @@ letter-spacing: 2.1px;
 text-transform: uppercase;
 }
 .career-top p{
-    width: 450px;
+    width: 400px;
 height: 115px;
 color: #fff;
 font-family: 'Roboto';
 font-size: 12px;
 font-style: normal;
 font-weight: 450;
-line-height: 30px;
+line-height: 17px;
 }
 .career-left button{
     display: flex;
@@ -2259,27 +2246,37 @@ font-style: normal;
 font-weight: 450;
 line-height: normal;
 }
-/* .career .career-right::before{
-    content: '';
-    position: absolute;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    background-color: #009CDB;
-    top: 50%;
-    left: -80px;
-    transform: translateY(-50%);
-    margin-top: 5%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 24px;
-} */
 .green{
     display: inline-flex;
 align-items: flex-start;
-gap: 6px;
-
+gap: 2px;
+}
+.divgreen{
+    width: 110px;
+     height: 110px; 
+      margin-left:138px;
+       margin-top:60px
+}
+.greny{
+    width: 110px;
+     height: 110px;
+      background: #2DA397;
+       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 50%
+}
+.grany{
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: center; 
+    gap: 2px; display: inline-flex; 
+    margin-top: 40px;
+     margin-left:31px;
+}
+.grapa p{
+    text-align: center; color: white; font-size: 18px; font-family: 'Roboto'; font-weight: 600; word-wrap: break-word
+}
+.grada p{
+    text-align: center; color: white; font-size: 12px; font-family: 'Roboto'; font-weight: 500; word-wrap: break-word
 }
 .greenin{
     display: flex;
@@ -2287,30 +2284,30 @@ flex-direction: column;
 align-items: center;
 gap: 2px;
 position: absolute;
-right: 51px;
-top: 74.5px;
+right: 21px;
+top: 34.5px;
 width: 54px;
 height: 75px;
 background-color: #2DA397;
 border-radius: 50%;
 }
 .greenin h6{
-    margin-top: 70px;
+    margin-top: 20px;
     color: #FFF;
 text-align: center;
-font-family: 'Space Grotesk';
-font-size: 35px;
+font-family: 'Roboto';
+font-size: 15px;
 font-style: normal;
-font-weight: 650;
+font-weight: 700;
 line-height: normal;
 }
 .greenin p{
     color: #FFF;
 text-align: center;
 font-family: 'Roboto';
-font-size: 30px;
+font-size: 14px;
 font-style: normal;
-font-weight: 450;
+font-weight: 500;
 line-height: normal;
 }
 .red{
@@ -2355,14 +2352,14 @@ line-height: normal;
 }
 .videosect{
     width: 100%;
-    height: 800px;
+    height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .vdo{
-    width: 1300px;
-height: 590px;
+    width: 100%;
+height: 490px;
 flex-shrink: 0;
 background: #564B4B;
 }
