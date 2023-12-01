@@ -21,7 +21,7 @@
 
 <body>
     <div>
-        <nav>
+        <nav id="navbar">
             <div class="logo">
                 <img src="logo.png" alt="Website Logo">
             </div>
@@ -44,11 +44,13 @@
                 <a href="#"><img src="linkedin.png" alt="LinkedIn"></a>
             </div>
         </nav>
+        
         <div class="firsty">
             <div class="fixed-container">
                 <a href="https://www.scrum.org/scale" target="_blank"><img src="image 5.png" /></a>
-                <a href="https://certification.scrumalliance.org/organizations/278-scale-up-private" target="_blank"><img src="image 5 (1).png" /></a>
-                <a href="https://www.icagile.com/member/142" target="_blank"><img src="image 4.png" /></a>                  
+                <a href="https://certification.scrumalliance.org/organizations/278-scale-up-private"
+                    target="_blank"><img src="image 5 (1).png" /></a>
+                <a href="https://www.icagile.com/member/142" target="_blank"><img src="image 4.png" /></a>
                 <a href="https://www.icagile.com/member/142" target="_blank"><img src="image 4 (1).png" /></a>
             </div>
             <div class="first">
@@ -334,7 +336,7 @@
                                 </div>
                             </div>
                             <div class="project">
-                                <div class="proimg"> <img src="ICP-LEA Black (1).png" /></div>
+                                <div class="proimg"> <img src="ICP-LEA Blue.png" /></div>
                                 <div class="procon">
                                     <div class="proco">
                                         <h6>Agile Leadership (ICP-LEA) <br> | Online</h6>
@@ -416,17 +418,154 @@
             </div>
             <div class="get">
                 <div class="out">
-                    <div class="drop">
-                        <div class="cor">
-                            <p>Courses</p>
-                            <img src="Vector.png" alt="arrow" />
+                    <div class="drop" id="dropdown">
+                        <p>Courses</p>
+                        <img src="Vector.png" alt="arrow" />
+                        <div class="dropdown-content">
+                            <div class="container-fluid">
+                                <div class="row" style="border: 1px solid #ccc;">
+                                  <div class="col-md-4" style="border-right: 1px solid #ccc;">
+                                    <ul id="Company-MegaMenu" class="megamenu-tabs">
+                                        <li class="active" data-href="Agile">
+                                          <span class="list-title">Agile and Scrum</span>
+                                          <span class="arrow-icon"><i class="fas fa-caret-right mm-tab-list-icon"></i></span>
+                                        </li>
+                                        <li data-href="Scaling">
+                                            <span class="list-title">Scaling Agile</span>
+                                            <span class="arrow-icon"><i class="fas fa-caret-right mm-tab-list-icon"></i>
+                                        </li>
+                                        <li data-href="Project">
+                                          <span class="list-title">Project Management</span>
+                                          <span class="arrow-icon"><i class="fas fa-caret-right mm-tab-list-icon"></i>
+                                        </li>
+                                    </ul>
+                                  </div>
+                                  <div class="col-md-8">
+                                    <!--Agile-->
+                                    <div id="Agile" class="megamenu-tabcontent active">
+                                        <div class="row">
+                                          <div class="col-md-6">
+                                              <h3 class="mm-tab-head">Agile and Scrum</h3>
+                                              <ul class="megamenu-tabcontent-innerlist">
+                                                <li>
+                                                  <a href="#">
+                                                    <p class="product-short-description">
+                                                        Certified Scrum Master (CSM)
+                                                    </p>
+                                                  </a>
+                                                </li>
+                                                <li>
+                                                  <a href="#">
+                                                    <p class="product-short-description">
+                                                        Advanced Certified Scrum Master (A-CSM)
+                                                    </p>
+                                                  </a>
+                                                </li>
+                                                <li>
+                                                  <a href="#">
+                                                    <p class="product-short-description">
+                                                        Certified Scrum Product Owner (CSPO)
+                                                    </p>
+                                                  </a>
+                                                </li>
+                                              </ul>
+                                          </div>
+                                        </div>
+                                    </div>
+                                    <!--Scaling-->
+                                    <div id="Scaling" class="megamenu-tabcontent">
+                                        <div class="row">
+                                          <div class="col-md-6">
+                                              <h3 class="mm-tab-head">Scaling Agile</h3>
+                                              <ul class="megamenu-tabcontent-innerlist">
+                                                <li>
+                                                  <a href="#">
+                                                    <p class="product-short-description">
+                                                        Leading SAFe (SAFe Agilist)
+                                                    </p>
+                                                  </a>
+                                                </li>
+                                                <li>
+                                                  <a href="#">
+                                                    <p class="product-short-description">
+                                                        SAFe Product Owner / Product Manager (POPM)
+                                                    </p>
+                                                  </a>
+                                                </li>
+                                                <li>
+                                                  <a href="#">
+                                                    <p class="product-short-description">
+                                                        SAFe Scrum Master (SSM)
+                                                    </p>
+                                                  </a>
+                                                </li>
+                                              </ul>
+                                          </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <!--Project Management-->
+                                    <div id="Project" class="megamenu-tabcontent">
+                                        <div class="row">
+                                          <div class="col-md-6">
+                                              <h3 class="mm-tab-head">Project Management</h3>
+                                              <ul class="megamenu-tabcontent-innerlist">
+                                                <li>
+                                                  <a href="#">
+                                                    <p class="product-short-description">
+                                                        Project Management Professional (PMP)
+                                                    </p>
+                                                  </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                      <p class="product-short-description">
+                                                        Disciplined Agile Scrum Master (DASM)
+                                                      </p>
+                                                    </a>
+                                                  </li>
+                                                  <li>
+                                                    <a href="#">
+                                                      <p class="product-short-description">
+                                                        Disciplined Agile Senior Scrum Master (DASSM)
+                                                      </p>
+                                                    </a>
+                                                  </li>
+                                                  <li>
+                                                    <a href="#">
+                                                      <p class="product-short-description">
+                                                        Agile Certified Practitioner (PMI-ACP)
+                                                      </p>
+                                                    </a>
+                                                  </li>
+                                                  <li>
+                                                    <a href="#">
+                                                      <p class="product-short-description">
+                                                        Professional in Business Analysis (PMI-PBA)
+                                                      </p>
+                                                    </a>
+                                                  </li>
+                                                  <li>
+                                                    <a href="#">
+                                                      <p class="product-short-description">
+                                                        PMI-PBA Online Exam Simulator
+                                                      </p>
+                                                    </a>
+                                                  </li>
+                                              </ul>
+                                          </div>
+                                        </div>
+                                    </div>
+                                    
+                                  </div>
+                                </div>
+                              </div>
                         </div>
-                    </div>
+                    </div>         
                     <div class="space">
-                        <form class="nosubmit">
-                            <input class="nosubmit" type="search" placeholder="    Get What you need"
-                                style="color: aliceblue;">
-                        </form>
+                        <div class="search-container">
+                            <input type="text" class="search-input" placeholder="Get what you need">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -585,54 +724,43 @@
                         <h4>Why Choose ScaleUp?</h4>
                         <div class="midframer">
                             <div class="framy">
-                                <h6>Hands on learning   experience</h6>
-                                <p>During our sessions you will practically implement Scrum framework and work in teams</p>
+                                <h6>Hands on learning experience</h6>
+                                <p>During our sessions you will practically implement Scrum framework and work in teams
+                                </p>
                             </div>
                             <div class="line"></div>
                             <div class="framy">
                                 <h6>Domain-agnostic learning</h6>
-                                <p>Whether you are an IT  professional or you have a non-IT background, our trainings are  absolutely beginner friendly.</p>
+                                <p>Whether you are an IT professional or you have a non-IT background, our trainings are
+                                    absolutely beginner friendly.</p>
                             </div>
                             <div class="line"></div>
                             <div class="framy">
-                                <h6>Live workshop with  Certified trainer</h6>
+                                <h6>Live workshop with Certified trainer</h6>
                                 <!-- <p>We do not believe in providing  recording of our sessions or any  handbook for self study. The  materials provided will serve as an   aid in our training however are not  replaceable of our live workshop
                                     ligula.</p> -->
-                                    <p>We do not believe in providing  recording of our sessions or any  handbook for self study. The  materials provided will <br/>serve as an aid in our training however are not replaceable of our live workshop</p>
+                                <p>We do not believe in providing recording of our sessions or any handbook for self
+                                    study. The materials provided will <br />serve as an aid in our training however are
+                                    not replaceable of our live workshop</p>
                             </div>
                             <div class="line"></div>
                             <div class="framy">
-                                <h6>Example oriented  learning</h6>
-                                <p>You can read and understand Scrum but it is the explaination and daily  life examples that will help you absorb the concepts better</p>
+                                <h6>Example oriented learning</h6>
+                                <p>You can read and understand Scrum but it is the explaination and daily life examples
+                                    that will help you absorb the concepts better</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            
-            <!-- <div class="customer">
+
+            <div class="customer">
                 <div class="cusheader">
                     <h5>What our Customer thinks</h5>
                     <p>See what our customers say about us</p>
                 </div>
                 <div class="logos">
                     <div class="logo-slide">
-                            <div class="nikbox" >
-                                <div class="nikup">
-                                    <img src="Ellipse 11.png" />
-                                    <div class="nikl">
-                                        <h6>Nikhil Karandikar</h6>
-                                        <p>PMP</p>
-                                    </div>
-                                </div>
-                                <div class="nikdown">
-                                    <p>I have had the chance to attend Vineet's Agile <br> coaching session in
-                                        preparation
-                                        for the ACP <br>exam. The 2 days of training session opened up <br> a world of
-                                        Agile
-                                        I never knew...</p>
-                                </div>
-                            </div>
                         <div class="nikbox">
                             <div class="nikup">
                                 <img src="Ellipse 11.png" />
@@ -665,7 +793,23 @@
                                     I never knew...</p>
                             </div>
                         </div>
-                        <div class="nikbox" >
+                        <div class="nikbox">
+                            <div class="nikup">
+                                <img src="Ellipse 11.png" />
+                                <div class="nikl">
+                                    <h6>Nikhil Karandikar</h6>
+                                    <p>PMP</p>
+                                </div>
+                            </div>
+                            <div class="nikdown">
+                                <p>I have had the chance to attend Vineet's Agile <br> coaching session in
+                                    preparation
+                                    for the ACP <br>exam. The 2 days of training session opened up <br> a world of
+                                    Agile
+                                    I never knew...</p>
+                            </div>
+                        </div>
+                        <div class="nikbox">
                             <div class="nikup">
                                 <img src="Ellipse 11.png" />
                                 <div class="nikl">
@@ -749,47 +893,39 @@
                         </div>
                     </div>
                 </div>
-            </div> -->
+            </div>
         </div>
-         <div class="faq">
+        <div class="faq">
             <h2>Frequently Asked Questions</h2>
             <div class="accordion">
                 <div class="accordion-item">
                     <button id="accordion-button-1" aria-expanded="false">
-                        <span class="accordion-title" style="font-family: Roboto;">Vitae suscipit velit maecenas placerat ac lectus vulputate viverra bibendum. Eget leo at vitae ut urna at elementum nec risus. Mi ornare odio proin
-                            at ut. Feugiat auctor auctor tempus ac nulla nisl vel.</span>
+                        <span class="accordion-title" style="font-family: Roboto;">How can Agile and Scrum training benefit you and your organization?</span>
                         <span class="icon" aria-hidden="true"></span>
                     </button>
                     <div class="accordion-content">
-                        <p style="font-family: Roboto;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                            ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor
-                            pretium viverra suspendisse potenti.</p>
+                        <p style="font-family: Roboto;">Agile and Scrum training can significantly enhance your company's performance and project management capabilities. In public trainings, your team members will gain a deep understanding of Agile principles and Scrum practices, empowering them to collaborate more effectively, deliver high-quality products, and adapt to changing requirements seamlessly.
+                            For corporate assignments, our tailored Agile and Scrum training programs are designed to address the specific needs and challenges of your organization. By implementing Agile, your teams will experience improved communication, increased productivity leading to effective value generation, and a shorter time-to-market. This training not only equips your employees with valuable skills but also instills an Agile mindset that promotes continuous improvement and innovation.
+                            </p>
                     </div>
                 </div>
                 <div class="accordion-item">
                     <button id="accordion-button-1" aria-expanded="false">
-                        <span class="accordion-title" style="font-family: Roboto;">Vitae suscipit velit maecenas placerat ac lectus vulputate
-                            viverra bibendum. Eget leo at vitae ut urna at elementum nec risus. Mi ornare odio proin
-                            at ut. Feugiat auctor auctor tempus ac nulla nisl vel.</span>
+                        <span class="accordion-title" style="font-family: Roboto;">Why Business Agility?</span>
                         <span class="icon" aria-hidden="true"></span>
                     </button>
                     <div class="accordion-content">
-                        <p style="font-family: Roboto;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                            ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor
-                            pretium viverra suspendisse potenti.</p>
+                        <p style="font-family: Roboto;">Business agility refers to an organization's ability to adapt quickly and effectively to changes in the market, technology, and customer needs. Scrum is a framework that aids in achieving business agility. It involves creating an adaptable and responsive organizational culture, enabling teams to innovate, collaborate, and deliver value rapidly.
+                        </p>
                     </div>
                 </div>
                 <div class="accordion-item">
                     <button id="accordion-button-1" aria-expanded="false">
-                        <span class="accordion-title" style="font-family: Roboto;">Vitae suscipit velit maecenas placerat ac lectus vulputate
-                            viverra bibendum. Eget leo at vitae ut urna at elementum nec risus. Mi ornare odio proin
-                            at ut. Feugiat auctor auctor tempus ac nulla nisl vel.</span>
+                        <span class="accordion-title" style="font-family: Roboto;">What certifications do you provide?</span>
                         <span class="icon" aria-hidden="true"></span>
                     </button>
                     <div class="accordion-content">
-                        <p style="font-family: Roboto;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                            ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor
-                            pretium viverra suspendisse potenti.</p>
+                        <p style="font-family: Roboto;">ScaleUp Consultants is a one-stop solution to enable you and your organization to achieve business agility. We train and coach individuals, serve and mentor teams by delivering courses on Agile and Scrum. The distinct courses we have for Scrum are from two bodies, Scrum.org and Scrum Alliance. Apart from that, we also deliver trainings governed by ICAgile and Scaled Agile, which are highly reputed training bodies in the IT world.</p>
                     </div>
                 </div>
             </div>
@@ -808,12 +944,39 @@
                         <div class="logof">
                             <img src="ScaleUp Logo. svg 4.png" alt="Website Logo">
                         </div>
-                        <h5 style="margin-bottom: 20px;">SOCIAL MEDIA</h5>
-                        <div class="social-icons">
+                        <h5>SOCIAL MEDIA</h5>
+                        <div class="social-iconss">
                             <a href="#"><img src="Link.png" alt="Facebook"></a>
                             <a href="#"><img src="Link (1).png" alt="LinkedIn"></a>
                             <a href="#"><img src="Link (2).png" alt="Facebook"></a>
                             <a href="#"><img src="Link (3).png" alt="LinkedIn"></a>
+                        </div>
+                    </div>
+                    <div class="footer-column" >
+                        <h3>FEATURES</h3>
+                        <div class="detail">
+                            <p>our experts</p>
+                            <p>Download Portfolio</p>
+                            <p>Careers</p>
+                            <p>About us</p>
+                        </div>
+                    </div>
+                    <div class="footer-column" >
+                        <h3>COURSES</h3>
+                        <div class="detail">
+                            <p>our experts</p>
+                            <p>Download Portfolio</p>
+                            <p>Careers</p>
+                            <p>About us</p>
+                        </div>
+                    </div>
+                    <div class="footer-column" >
+                        <h3>QUICK LINKS</h3>
+                        <div class="detail">
+                            <p>Sitemap</p>
+                            <p>Contact</p>
+                            <p>Terms of Use</p>
+                            <p>Refferal Policy</p>
                         </div>
                     </div>
                     <div class="footer-column">
@@ -828,24 +991,6 @@
                             <div style="margin-bottom: 8px;"><span class="phone-label">Regd.Adress: </span><span
                                     class="phone-number">A - 302 Ruby Park, Park Street, Near Wisdom World School,
                                     Waked, Pune-411057</span></div>
-                        </div>
-                    </div>
-                    <div class="footer-column" style="margin-left: 50px;">
-                        <h3>FEATURES</h3>
-                        <div class="detail">
-                            <p>our exports</p>
-                            <p>Download Portfolio</p>
-                            <p>Careers</p>
-                            <p>About us</p>
-                        </div>
-                    </div>
-                    <div class="footer-column" style="margin-left: 50px;">
-                        <h3>QUICK LINKS</h3>
-                        <div class="detail">
-                            <p>Sitemap</p>
-                            <p>Contact</p>
-                            <p>Terms of Use</p>
-                            <p>Refferal Policy</p>
                         </div>
                     </div>
                 </div>
@@ -865,7 +1010,7 @@
         </div>
         <div class="rights">
             <p>© 2014-2023, Scale Up Pvt. Ltd. All Rights Reserved.</p>
-        </div> 
+        </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
@@ -899,6 +1044,20 @@
             });
         });
     </script> -->
+    <script>
+        window.onscroll = function() { scrollFunction() };
+    
+        function scrollFunction() {
+            var navbar = document.getElementById("navbar");
+    
+            // Change the class based on scroll position
+            if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+                navbar.classList.add("sticky-nav");
+            } else {
+                navbar.classList.remove("sticky-nav");
+            }
+        }
+    </script>
     <script type="text/javascript" src="script.js"></script>
 </body>
 

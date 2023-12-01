@@ -9,6 +9,40 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 });
 
+var dropdown = document.getElementById("dropdown");
+var dropdownContent = dropdown.querySelector(".dropdown-content");
+var nestedDropdownTrigger = dropdown.querySelector(".nested-dropdown-trigger");
+var nestedDropdownContent = dropdown.querySelector(".nested-dropdown-content");
+
+// Show/hide dropdown on div click
+dropdown.addEventListener("click", function (event) {
+    dropdownContent.style.display = (dropdownContent.style.display === "block") ? "none" : "block";
+    event.stopPropagation(); // Prevent the click event from reaching the document
+});
+
+// Hide dropdown when clicking outside of it
+document.addEventListener("click", function (event) {
+    var targetElement = event.target;
+
+    if (!dropdown.contains(targetElement)) {
+        // Click occurred outside the dropdown
+        dropdownContent.style.display = "none";
+    }
+});
+const MegaMenuList = document.querySelector("#Company-MegaMenu");
+const MMListItem = MegaMenuList.querySelectorAll("li");
+const MmTabsContent = document.querySelectorAll(".megamenu-tabcontent");
+
+MMListItem.forEach((listItem, i) => {
+  listItem.addEventListener("mouseover", function() {
+    var divID = listItem.getAttribute('data-href').toString();
+    for (let el of MmTabsContent) el.style.display = 'none';
+    for (let el of MMListItem) el.classList.remove("active");
+    document.getElementById(divID).style.display = "block";
+    listItem.classList.add("active");
+  })
+
+});
 
 const items = document.querySelectorAll(".accordion button");
 
