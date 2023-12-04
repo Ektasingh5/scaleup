@@ -522,7 +522,7 @@ line-height: 24px;
 }
 .det{
     margin-left: 4%;
-    margin-right: 6%;
+    margin-right: 10%;
 }
 .detaill{
     display: flex;
@@ -545,7 +545,7 @@ line-height: 24px;
 }
 .left-bar{
     /* display: flex; */
-width: 20vw;
+width: 300px;
 padding: 42px 32px;
 /* align-items: flex-start; */
 gap: 8px;
@@ -582,7 +582,7 @@ text-transform: capitalize;
     border-radius: 8px;
 border: 1px solid #979797;
 background: radial-gradient(102.04% 79.71% at 59.64% 44.59%, #005F8F 0%, #041E2C 100%);
-width: 20vw;
+width: 300px;
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -602,9 +602,10 @@ margin-left: 1vw;
 }
 .linm{
     background: #FFF;
-    width: 18vw;
+    width: 90%;
     height: 0.2vh;
-    margin-left: 1vw;
+    margin-right: 5%;
+    margin-left: 5%;
 }
 .sec-menu-cont{
     display: inline-flex;
@@ -797,7 +798,9 @@ background: #E9F6FB;
   }
   .butt{
     display: flex;
-    align-items: flex-start;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
   }
 .butt button{
     display: flex;
@@ -974,6 +977,7 @@ border-color: #116189;
     align-items: flex-start;
     width: 100%;
     gap: 10px;
+    margin-top: 50px;
   }
   .testo{
     display: flex;
@@ -992,8 +996,8 @@ line-height: normal;
 text-transform: capitalize;
   }
   .test img{
-    height: 38vh;
-    width: 35vw
+    height: 339px;
+    width: 99%;
   }
   .faq{
     display: inline-flex;
