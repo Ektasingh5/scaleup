@@ -1160,7 +1160,7 @@ margin-top: 20px;
   .audi{
     width: 100%;
     height: 400px;
-    background-image: url(Vector\ \(1\).png);
+    background-image: url(../images/Vector\ \(1\).png);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
