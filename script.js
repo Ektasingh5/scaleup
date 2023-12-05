@@ -14,13 +14,11 @@ var dropdownContent = dropdown.querySelector(".dropdown-content");
 var nestedDropdownTrigger = dropdown.querySelector(".nested-dropdown-trigger");
 var nestedDropdownContent = dropdown.querySelector(".nested-dropdown-content");
 
-// Show/hide dropdown on div click
 dropdown.addEventListener("click", function (event) {
     dropdownContent.style.display = (dropdownContent.style.display === "block") ? "none" : "block";
     event.stopPropagation(); // Prevent the click event from reaching the document
 });
 
-// Hide dropdown when clicking outside of it
 document.addEventListener("click", function (event) {
     var targetElement = event.target;
 

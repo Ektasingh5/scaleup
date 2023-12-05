@@ -121,23 +121,21 @@ letter-spacing: 0.14px;
     }
 
     .social-icons {
-        margin-top: 10px; /* Adjust the margin as needed */
+        margin-top: 10px;
     }
 
-    /* Reduce the size of the logo on smaller screens */
+    
     .logo img {
-        width: 120px; /* Adjust the width as needed */
+        width: 120px; 
     }
 }
 
 @media only screen and (max-width: 430px) {
-    /* Further reduce the size of the logo on even smaller screens */
     .logo img {
         width: 52px;
         height: 27px;
     }
 
-    /* Adjust the order of social icons and blogs for smaller screens */
     .nav-links.show {
         flex-direction: column;
     }
