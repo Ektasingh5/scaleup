@@ -16,14 +16,13 @@ var nestedDropdownContent = dropdown.querySelector(".nested-dropdown-content");
 
 dropdown.addEventListener("click", function (event) {
     dropdownContent.style.display = (dropdownContent.style.display === "block") ? "none" : "block";
-    event.stopPropagation(); // Prevent the click event from reaching the document
+    event.stopPropagation(); 
 });
 
 document.addEventListener("click", function (event) {
     var targetElement = event.target;
 
     if (!dropdown.contains(targetElement)) {
-        // Click occurred outside the dropdown
         dropdownContent.style.display = "none";
     }
 });

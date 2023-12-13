@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enroll</title>
+    <link rel="stylesheet" href="css/enroll.css">
+</head>
+
+<body style="margin-bottom: 100px;">
+    <nav id="navbar">
+        <div class="logo">
+            <img src="images/ScaleUp Logo. svg 3 (1).png" alt="Website Logo">
+        </div>
+        <div class="menu-toggle" id="mobile-menu">
+            <img src="images/lucide_menu.png" alt="Menu">
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="#">TRAINING CALENDAR</a></li>
+            <li><a href="course.html">COURSES</a></li>
+            <li><a href="#">AGILE SOLUTIONS</a></li>
+            <li><a href="#">RESOURCES</a></li>
+            <li><a href="#">CONTACT US</a></li>
+            <li><a href="#">BLOGS</a></li>
+        </ul>
+        <div class="social-icons">
+            <a href="#"><img src="images/Link (4).png" alt="Facebook"></a>
+            <a href="#"><img src="images/Link (5).png" alt="LinkedIn"></a>
+            <a href="#"><img src="images/Link (6).png" alt="Facebook"></a>
+            <a href="#"><img src="images/Link (7).png" alt="LinkedIn"></a>
+        </div>
+    </nav>
+    <div class="upper-content">
+        <div class="header">
+            <img src="images/ICP-ACC Blue.jpg" />
+            <div class="header-content">
+                <h1>Agile Coaching Certification (ICP-ACC) Online</h1>
+                <p>Lorem ipsum dolor sit amet consectetur. Interdum mauris vitae sed mattis euismod quis id. Ultrices
+                    gravida congue nisl consequat augue neque. Enim malesuada rhoncus auctor tristique amet. Amet massa
+                    faucibus integer phasellus quisque amet bibendu</p>
+                <a href="course.html" class="view-button">View Course Details</a>
+            </div>
+        </div>
+    </div>
+    <div class="forms">
+        <div class="form-left">
+            <div class="basic-info-form">
+                <h2>1. Basic Information</h2>
+                <form id="contactForm">
+                    <div class="divi">
+                        <div class="divy">
+                            <input type="text" id="firstName" name="firstName" placeholder="First Name*" required>
+                        </div>
+                        <div class="divy">
+                            <input type="text" id="lastName" name="lastName" required placeholder="Last Name*">
+                        </div>
+                    </div>
+                    <div class="divi">
+                        <div class="divy">
+                            <input type="email" id="email" name="email" placeholder="Email Address*" required>
+                        </div>
+                        <div class="divy">
+                            <input type="tel" id="phoneNumber" name="phoneNumber" pattern="[0-9]{10}"
+                                title="Enter a 10-digit phone number" placeholder="Phone Number" required>
+                        </div>
+                    </div>
+                    <div class="divi">
+                        <div class="divy">
+                            <input type="text" id="companyName" name="companyName" placeholder="Company Name(optional)"
+                                required>
+                        </div>
+                        <div class="divy">
+                            <input type="text" id="gstNumber" name="gstNumber" placeholder="GST number(optional)"
+                                required>
+                        </div>
+                    </div>
+                    <div class="divi">
+                        <div class="divy">
+                            <select id="country" name="country" placeholder="Select Country*" required>
+                                <option value="" disabled selected>Country</option>
+                                <option value="USA">India</option>
+                                <option value="Canada">Japan</option>
+                            </select>
+                        </div>
+                        <div class="divy">
+                            <select id="city" name="city" required>
+                                <option value="" disabled selected>City</option>
+                                <option value="New York">gwalior</option>
+                                <option value="Toronto">Indore</option>
+                            </select>
+                        </div>
+                    </div>
+                    <input type="text" id="address" name="address" placeholder="Address*" required>
+                    <div class="divi">
+                        <div class="divy">
+                            <input type="text" id="nearby" name="nearby" placeholder="Nearby" required>
+                        </div>
+                        <div class="divy">
+                            <input type="text" id="postalCode" name="postalCode" placeholder="PostalCode" required>
+                        </div>
+                    </div>
+                    <div class="divi">
+                        <div class="divy checkbox-container">
+                            <input type="checkbox" id="participantCheckbox" name="participantCheckbox" required>
+                            <label for="participantCheckbox">Yes, I am the Participant</label>
+                        </div>
+                    </div>
+                    <button type="button">Save & Proceed</button>
+                </form>
+                <div class="participant-forms-container">
+                    <!-- other participant info/ this form is in enroll.js file  -->
+                </div>
+            </div>
+            <div class="payment-info-form">
+                <h2>2. Payment</h2>
+                <form id="paymentForm">
+                    <input type="text" id="address" name="address" placeholder="Address*" required>
+                    <div class="divm">
+                        <label for="cardHolderName">Card Holder Name</label>
+                        <input type="text" id="firstName" name="firstName" placeholder="Full cardholder name">
+                    </div>
+                    <div class="divm">
+                        <label for="cardNumber">Card Number</label>
+                        <input type="text" id="cardNumber" name="cardNumber" pattern="[0-9]{16}"
+                            placeholder="Debit or credit card number" required>
+                    </div>
+                    <div class="divm">
+                        <div class="divi">
+                            <div class="divy">
+                                <label for="expiryDate">Expiration date</label>
+                                <input type="text" id="expiryDate" name="expiryDate" placeholder="MM/YY"
+                                    pattern="(0[1-9]|1[0-2])\/\d{2}" title="Enter a valid expiry date (MM/YY)" required>
+                            </div>
+                            <div class="divy">
+                                <label for="cvv">CVV</label>
+                                <input type="text" id="cvv" name="cvv" pattern="[0-9]{3}" placeholder="***" required>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button">Save & Proceed</button>
+                </form>
+
+            </div>
+        </div>
+        <div class="form-right">
+            <div class="bill-info-form">
+                <div class="bill-head">
+                    <h5>Professional scrum master (pSM-1) Online | 2 Days</h5>
+                    <div class="quantity-controls">
+                        <button class="decrement">-</button>
+                        <span class="quantity">1</span>
+                        <button class="increment">+</button>
+                    </div>
+                </div>
+                <div class="bill-para">
+                    <p>Change Date</p>
+                    <p>Timezone</p>
+                </div>
+                <div class="bill-para">
+                    <h6>Base Amount</h6>
+                    <h6 class="base-amount">INR 20500</h6>
+                </div>
+                <div class="bill-para">
+                    <h6>+ GST 18%</h6>
+                    <h6 class="gst-amount">3690</h6>
+                </div>
+                <div class="total-line"></div>
+                <div class="bill-para">
+                    <h6>TOTAL</h6>
+                    <h6 class="total-amount" style="color: #009CDB;">INR 24190.00</h6>
+                </div>
+            </div>
+            <div class="coupen-code">
+                <input type="email" class="coupen-input" placeholder="COUPEN CODE">
+                <button class="coupen-button">APPLY</button>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/enroll.js"></script>
+</body>
+
+</html>
