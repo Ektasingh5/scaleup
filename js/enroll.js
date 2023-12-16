@@ -50,12 +50,6 @@ document.addEventListener('DOMContentLoaded', function () {
                     <input type="text" id="participantPhoneNumber${i}" name="participantPhoneNumber${i}" pattern="[0-9]{10}" placeholder="Participant ${i} Phone Number*" required>
                 </div>
             </div>
-            <div class="divi">
-                        <div class="divy checkbox-container">
-                            <input type="checkbox" id="participantCheckbox" name="participantCheckbox" required>
-                            <label for="participantCheckbox">Yes, I am the Participant</label>
-                        </div>
-                    </div>
                     <button type="button">Save & Proceed</button>
         `;
         participantFormsContainer.appendChild(participantForm);
